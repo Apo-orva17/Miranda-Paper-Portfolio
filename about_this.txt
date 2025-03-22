@@ -1,0 +1,17 @@
+1. gsap library: js animation library that we have used for the animation in the beginning
+2.day1-(44:05)
+3.day2-(1:15:26)
+4.locomotive scroll library: js library for smooth scrolling animation and advanced scroll interaction
+5. open locomotive js cdn
+copy js link to end of the file but before gsap
+and copied css link to the header
+then
+go to locomotive js github
+and copy the code to the very begining of js file
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('[data-scroll-container]'),
+    smooth: true
+});
+
+instead of [dat scroll container] write #main coz thats our container
+6.using underline for strike through behind letters suing text-underline-offset
